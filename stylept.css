@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+}
+
+body{
+    background-color: rgb(217, 255, 242);
+}
+
+.buttom {
+    color: rgb(121, 197, 197);
+    background-color: rgb(43, 141, 141);
+    text-decoration: none;
+    padding: 5px 5px;
+    border-radius: 8%;
+    margin: 5px;
+}
+.buttom:hover {
+    background-color: rgb(17, 56, 56);
+    color: rgb(76, 128, 128) ;
+}
+
+.titulos {
+    font-family: 'Roboto' , Helvetica;
+    color: rgb(66, 112, 112);
+}
+h1.titulos {
+   text-align: left;
+
+}
+
+.pa_lis {
+    font-family: 'Noto+Sans' ,Helvetica;
+    color: rgb(33, 112, 112);
+}
+
+#foto {
+    border-radius: 1%;
+}
+
+.links {
+    display: inline-block;
+
+}
+
+#linkthree {
+    margin-bottom: 50px;
+    background-color: aqua;
+    padding: 15px;
+    display: inline-block;
+}
+#lnpersonalization {
+    text-align: right;
+}
+
+
+   
+    
