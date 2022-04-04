@@ -1,13 +1,13 @@
 *{
     margin: 0;
-}
+    padding: 0;
 
+}
 body{
     background-color: rgb(217, 255, 242);
 }
-
 .buttom {
-    color: rgb(121, 197, 197);
+    color: rgb(196, 235, 231);
     background-color: rgb(43, 141, 141);
     text-decoration: none;
     padding: 5px 5px;
@@ -18,40 +18,57 @@ body{
     background-color: rgb(17, 56, 56);
     color: rgb(76, 128, 128) ;
 }
-
 .titulos {
     font-family: 'Roboto' , Helvetica;
     color: rgb(66, 112, 112);
 }
-h1.titulos {
-   text-align: left;
+#header {
+    padding-bottom: 10px;
+    margin-bottom: 35px ;
+    background-color: rgb(163, 238, 219);
 
 }
-
 .pa_lis {
     font-family: 'Noto+Sans' ,Helvetica;
     color: rgb(33, 112, 112);
 }
-
 #foto {
     border-radius: 1%;
 }
-
+#link_tree {
+    margin: 15px 10px 0 10px;
+    padding: 15px;
+    float: right;
+    max-width: 550px;
+}
 .links {
     display: inline-block;
 
 }
-
-#linkthree {
-    margin-bottom: 50px;
-    background-color: aqua;
+.links .buttom {
+    padding: 10px;
+}
+.links h1 {
     padding: 15px;
+}
+#middle {
+   padding: 20px 80px;
+   background-color: rgb(163, 238, 219);
+   margin-bottom: 50px;
+}
+.pic_description {
+    width: 300px;
+    padding: 20px;
+    margin-left: 40px;
     display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
-#lnpersonalization {
-    text-align: right;
+.lists {
+    margin-left: 30px;
+    margin-bottom: 25px;
 }
-
-
-   
+.las {
+    margin-top: 90px 0;
+}
     
