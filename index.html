@@ -1,62 +1,48 @@
 <!DOCTYPE hmtl>
-    <html lang="pt-br">
-        <head>
-            <meta charset="UTF-8">
-            <title>Portfólio</title>
-            <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400&family=Roboto&display=swap" rel="stylesheet"> 
-            <link rel="stylesheet" href="stylept.css">
-        </head>
-        <body>
-            <div id="header">
-                <div class="links">
-                  <h1 class="titulos">Henos Vinicius</h1>
-                </div>
-                    <div id="link_tree">
-                        
-                        <div class="links">   
-                        <a href="#foto" class="buttom">Minha foto</a>
-                        </div>
+<html lang="pt-br">
+  <head>
+      <meta charset="UTF-8">
+      <title>Portfólio</title>
+      <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400&family=Roboto&display=swap" rel="stylesheet"> 
+      <link rel="stylesheet" href="stylept.css">
+  </head>
+  <body>
+    <header id="header">
+        <h1 class="titulos" id="meuNome">Henos Vinicius</h1>
+        <nav id="link_tree">
+            <a class="links buttom" href="#foto" class="buttom">Minha foto</a>
+            <a class="links buttom" href="#sobremim"class="buttom">Sobre mim</a>
+            <a class="links buttom" href="#habilidades"class="buttom">Minhas habilidades</a>
+            <a class="links buttom" href="#conteudo"class="buttom">Conteúdos que curto</a>
+        </nav>  
+    </header>  
+    <main>
+      <section id="middle">  
+        <article class="pic_description"> 
+            <img id="foto" src="imagens/FotoBacana.JPG" width="300px" id="foto" >
+            <h4 class="titulos">Aluno de desenvolvimento Web pela Trybe | Interessado em programação e matemática | Fã de games | Melhorar a cada dia</h4> 
+        </article>
+        <article id="description" class="pic_description">
+            <p id="sobremim" class="pa_lis"><span style="height: 1cm;">Bem vindo ao meu Portfólio!</span><br> Como já sabem, me chamo Henos. Sou natural de Pernambuco mas moro em Brasília e estou começando minha carreira de desenvolvedor Web pela Trybe!<br> Além disso, <span style="font-style: italic; font-weight: 900;">adoro assuntos relacionados à lógica e exatas.</span></p>
+        </article>     
+      </section>  
 
-                        <div class="links">
-                        <a href="#sobremim"class="buttom">Sobre mim</a>
-                        </div>
-
-                        <div class="links">
-                        <a href="#habilidades"class="buttom">Minhas habilidades</a>
-                        </div>
-
-                        <div class="links">
-                        <a href="#conteudo"class="buttom">Conteúdos que curto</a>
-                        </div>
-                    </div>
-                </div>  
-            </div>  
-
-        <div id="middle">  
-            <div class="pic_description"> 
-                <img id="foto" src="imagens/FotoBacana.JPG" width="300px" id="foto" >
-                <h4 class="titulos">Aluno de desenvolvimento Web pela Trybe | Interessado em programação e matemática | Fã de games | Melhorar a cada dia</h4> 
-            </div>
-            <div class="pic_description">
-                <div id="description">
-                    <p id="sobremim" class="pa_lis"><span style="height: 1cm;">Bem vindo ao meu Portfólio!</span><br> Como já sabem, me chamo Henos. Sou natural de Pernambuco mas moro em Brasília e estou começando minha carreira de desenvolvedor Web pela Trybe!<br> Além disso, <span style="font-style: italic; font-weight: 900;">adoro assuntos relacionados à lógica e exatas.</span></p>
-                </div>
-            </div>       
-        </div>  
-        
-        <div class="lists">
-        <h2 id="habilidades" class="titulos">Habilidades das quais me orgulho - </h2>
-
+      <section>
+        <aside class="list">
+          <h2 id="habilidades" class="titulos">Habilidades das quais me orgulho - </h2>
+          <nav>
             <lu class="pa_lis">
                 <li>Unix e Linux</li>
                 <li>HTML e CSS</li>
                 <li>Lógica e raciocínio analítico</li>
                 <li><span style="font-style: italic; font-weight: 900;">Resolução de problemas</span></li>    
-            </lu> 
-        </div>
+            </lu>
+          </nav> 
+        </aside>
 
-        <div class="lists">
-            <h2 id="conteudo" class="titulos">Blogs e canais que gosto - </h2>
+        <aside class="lists">
+          <h2 id="conteudo" class="titulos">Blogs e canais que gosto - </h2>
+          <nav>
             <lu class="pa_lis">
                 <li><a href="https://www.youtube.com/channel/UCcdK7fNDtCuiERTzTZdWY7w" target="_blank" class="buttom">Universo Narrado</a></li>
                 <br>
@@ -64,7 +50,9 @@
                 <br>
                 <li><a href="https://www.youtube.com/user/CienciaTodoDia" target="_blank" class="buttom">Ciência todo dia</a></li>   
             </lu>
-        </div>       
-            
-        </body>       
-    </html>   
+          </nav>
+        </aside>
+      </section>       
+    </main>
+  </body>       
+</html>   
