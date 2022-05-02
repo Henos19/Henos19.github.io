@@ -1,58 +1,59 @@
 <!DOCTYPE hmtl>
 <html lang="pt-br">
-  <head>
-      <meta charset="UTF-8">
-      <title>Portfólio</title>
-      <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400&family=Roboto&display=swap" rel="stylesheet"> 
-      <link rel="stylesheet" href="stylept.css">
-  </head>
-  <body>
-    <header id="header">
-        <h1 class="titulos" id="meuNome">Henos Vinicius</h1>
-        <nav id="link_tree">
-            <a class="links buttom" href="#foto" class="buttom">Minha foto</a>
-            <a class="links buttom" href="#sobremim"class="buttom">Sobre mim</a>
-            <a class="links buttom" href="#habilidades"class="buttom">Minhas habilidades</a>
-            <a class="links buttom" href="#conteudo"class="buttom">Conteúdos que curto</a>
-        </nav>  
-    </header>  
-    <main>
-      <section id="middle">  
-        <article class="pic_description"> 
-            <img id="foto" src="imagens/FotoBacana.JPG" width="300px" id="foto" >
-            <h4 class="titulos">Aluno de desenvolvimento Web pela Trybe | Interessado em programação e matemática | Fã de games | Melhorar a cada dia</h4> 
-        </article>
-        <article id="description" class="pic_description">
-            <p id="sobremim" class="pa_lis"><span style="height: 1cm;">Bem vindo ao meu Portfólio!</span><br> Como já sabem, me chamo Henos. Sou natural de Pernambuco mas moro em Brasília e estou começando minha carreira de desenvolvedor Web pela Trybe!<br> Além disso, <span style="font-style: italic; font-weight: 900;">adoro assuntos relacionados à lógica e exatas.</span></p>
-        </article>     
-      </section>  
-
-      <section>
-        <aside class="list">
-          <h2 id="habilidades" class="titulos">Habilidades das quais me orgulho - </h2>
-          <nav>
-            <lu class="pa_lis">
-                <li>Unix e Linux</li>
-                <li>HTML e CSS</li>
-                <li>Lógica e raciocínio analítico</li>
-                <li><span style="font-style: italic; font-weight: 900;">Resolução de problemas</span></li>    
-            </lu>
-          </nav> 
-        </aside>
-
-        <aside class="lists">
-          <h2 id="conteudo" class="titulos">Blogs e canais que gosto - </h2>
-          <nav>
-            <lu class="pa_lis">
-                <li><a href="https://www.youtube.com/channel/UCcdK7fNDtCuiERTzTZdWY7w" target="_blank" class="buttom">Universo Narrado</a></li>
-                <br>
-                <li><a href="https://www.youtube.com/channel/UC4SVo0Ue36XCfOyb5Lh1viQ" target="_blank" class="buttom">Bro Code</a></li>
-                <br>
-                <li><a href="https://www.youtube.com/user/CienciaTodoDia" target="_blank" class="buttom">Ciência todo dia</a></li>   
-            </lu>
-          </nav>
-        </aside>
-      </section>       
-    </main>
-  </body>       
-</html>   
+<head>
+  <meta charset="UTF-8">
+  <title>Portfólio</title>
+  <link rel="stylesheet" href="stylept.css">
+</head>
+<body>
+  <header id="header">
+    <h1 id="myName">Henos Vinicius</h1>
+    <nav id="link_tree">
+        <a class="buttom" href="#foto" class="buttom">Minha foto</a>
+        <a class="buttom" href="#sobremim"class="buttom">Sobre mim</a>
+        <a class="buttom" href="#habilidades"class="buttom">Habilidades</a>
+        <a class="buttom" href="#conteudo"class="buttom">Conteúdos que consumo</a>
+    </nav>
+  </header>
+  <main>
+    <section id="middle">
+      <div class="container1">
+        <div class="description">
+          <img id="foto" src="imagens/FotoBacana.JPG">
+          <h4>Aluno de desenvolvimento Web pela Trybe | Interessado em programação e matemática | Fã de games | Melhorar a cada dia</h4>
+        </div>
+        <div class="description">
+          <p id="sobremim"><span style="height: 1cm;">Bem vindo ao meu Portfólio!</span><br> Como já sabem, me chamo Henos. Sou natural de Pernambuco mas moro em Brasília e estou começando minha carreira de desenvolvedor Web pela Trybe!<br> Além disso, <em><strong>assuntos relacionados à lógica e exatas.</strong></em></p>
+        </div>
+      </div>
+      <div class="container2">
+        <a href="https://github.com/Henos19" target="_blank" class="icon-link"><img src="imagens/guthubicon.png" class="icon"/></a>
+        <a href="https://www.linkedin.com/in/henos-vinicius-38086a234/" target="_blank" class="icon-link"><img src="imagens/linkedinicon.png" class="icon"/></a>
+      </div>
+    </section>
+    <section id="second">
+      <aside id="list-second">
+        <div class="list">
+          <lu class="in_list">Habilidades das quais me orgulho:
+            <li class="element1 allElements">Unix e Linux</li>
+            <li class="element1 allElements">HTML e CSS</li>
+            <li class="element1 allElements">JavaScript e DOM</li>
+            <li class="element1 allElements">Lógica e raciocínio analítico</li>
+            <li class="element1 allElements"><span style="font-style: italic; font-weight: 900;">Resolução de problemas</span></li>
+          </lu>
+        </div>
+        <div class="list">
+          <lu class="in_list">Blogs e canais que gosto:
+            <li class="element2 allElements"><a href="https://www.youtube.com/channel/UCcdK7fNDtCuiERTzTZdWY7w" target="_blank" class="buttom">Universo Narrado</a></li>
+            <li class="element2 allElements"><a href="https://www.youtube.com/channel/UC4SVo0Ue36XCfOyb5Lh1viQ" target="_blank" class="buttom">Bro Code</a></li>
+            <li class="element2 allElements"><a href="https://www.youtube.com/user/CienciaTodoDia" target="_blank" class="buttom">Ciência todo dia</a></li>
+          </lu>
+        </div>
+      </aside>
+    </section>
+    <section id="third">
+      <h2>Meus projetos</h2>
+    </section>
+  </main>
+</body>
+</html>

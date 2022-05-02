@@ -1,82 +1,116 @@
 *{
-    margin: 0;
-    padding: 0;
+	margin: 0;
+	padding: 0;
 }
 body{
-    background-color: rgb(217, 255, 242);
+	background-color: rgb(243, 245, 244);
+	color: rgb(87, 88, 88);
+	font-family: sans-serif;
+	font-size: 25px;
 }
 #header {
-    position: fixed;
-    width: 100%;
-    background-color: rgb(116, 209, 186);
+	position: fixed;
+	width: 100%;
+	background-color: rgb(224, 224, 224);
 }
-#meuNome {
-    padding-top: 8px;
-    padding-left: 8px;
-    font-size: 40px;
+
+#myName {
+	padding-top: 8px;
+	padding-left: 8px;
+	font-size: 40px;
+	background-color: rgb(196, 196, 196);
 }
-.links {
-    display: inline-block;
+
+h4 {
+	font-size: 25px;
 }
+
+h2 {
+	font-size: 30px;
+	margin-left: 10px;
+}
+
 #link_tree {
-    padding: 5px;
-    background-color: rgb(171, 212, 212);
+	padding: 20px 0;
+	background-color: rgb(196, 196, 196);
 }
+
 .buttom {
-    color: rgb(196, 235, 231);
-    background-color: rgb(43, 141, 141);
-    text-decoration: none;
-    padding: 8px 8px;
-    border-radius: 10%;
-    margin: 5px;
+	color: rgb(232, 235, 235);
+	background-color: rgb(142, 143, 143);
+	text-decoration: none;
+	padding: 8px;
+	border-radius: 5px;
+	margin-right: 10px;
 }
 .buttom:hover {
-    background-color: rgb(17, 56, 56);
-    color: rgb(76, 128, 128) ;
+	background-color: rgb(43, 48, 48);
+	color: rgb(196, 197, 197);
 }
 
 #middle {
-   padding: 20px 80px;
-   background-color: rgb(163, 238, 219);
-   margin: auto; 
-   padding-top: 100px;
+	background-color: rgb(224, 224, 224);
+	padding: 20px 80px;
+	padding-top: 100px;
+	max-width: 100%;
 }
-.pic_description {
-    width: 300px;
-    padding: 20px;
-    margin-inline-start: 10%;
-    display: inline-block;
 
+.container1 {
+	margin: 20px 0;
+	padding-bottom: 30px;
+	display: inline-flex;
 }
+
 #foto {
-    border-radius: 1%;
+	border-radius: 5px;
+	max-width: 450px;
 }
 
-.titulos {
-    font-family: 'Roboto' , Helvetica;
-    color: rgb(66, 112, 112);
+.description {
+	margin: 0 10px;
+	margin-top: 40px;
+	max-width: 450px;
 }
 
-.pa_lis {
-    font-family: 'Noto+Sans' ,Helvetica;
-    color: rgb(33, 112, 112);
+.container2 {
+	width: 300px;
+	text-align: center;
+	display: block;
 }
 
-.links .buttom {
-    padding: 10px;
-}
-.links h1 {
-    padding: 15px;
-}
-.lists {
-    margin-left: 30px;
-    margin-bottom: 25px;
-}
-h2 {
-    margin-bottom: 30px;
+.icon-link {
+	margin-right: 20px;
 }
 
-.pa_lis .buttom {
-    padding: 6px;
-    border-radius: 6%;
+.icon {
+	width: 70px;
+}
+
+#second {
+	padding: 15px;
+}
+
+.list {
+	margin-bottom: 20px;
+	margin-right: 25px;
+	max-width: 50%;
+	display: inline-flex;
+	text-align: justify;
+}
+
+.in_list {
+	font-size: 30px;
+	font-weight: 900;
+}
+
+.allElements {
+	font-size: 20px;
+}
+
+.element1 {
+	padding-top: 3px;
+}
+
+.element2 {
+	padding: 10px;
 }
