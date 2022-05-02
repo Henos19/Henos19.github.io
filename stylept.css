@@ -2,37 +2,38 @@
 	margin: 0;
 	padding: 0;
 }
+
 body{
 	background-color: rgb(243, 245, 244);
 	color: rgb(87, 88, 88);
 	font-family: sans-serif;
-	font-size: 25px;
-}
-#header {
-	position: fixed;
-	width: 100%;
-	background-color: rgb(224, 224, 224);
+	font-size: 18px;
 }
 
 #myName {
+	color: rgb(232, 235, 235);
 	padding-top: 8px;
 	padding-left: 8px;
 	font-size: 40px;
-	background-color: rgb(196, 196, 196);
+}
+
+#header {
+	position: fixed;
+	width: 100%;
+	background-color: rgb(87, 88, 88);
 }
 
 h4 {
-	font-size: 25px;
+	font-size: 20px;
 }
 
 h2 {
 	font-size: 30px;
-	margin-left: 10px;
+	margin-bottom: 15px;
 }
 
 #link_tree {
-	padding: 20px 0;
-	background-color: rgb(196, 196, 196);
+	padding: 10px 0;
 }
 
 .buttom {
@@ -41,21 +42,22 @@ h2 {
 	text-decoration: none;
 	padding: 8px;
 	border-radius: 5px;
-	margin-right: 10px;
+	margin-right: 5px;
 }
 .buttom:hover {
 	background-color: rgb(43, 48, 48);
 	color: rgb(196, 197, 197);
 }
 
-#middle {
+#first {
 	background-color: rgb(224, 224, 224);
-	padding: 20px 80px;
+	padding: 20px 10px;
 	padding-top: 100px;
 	max-width: 100%;
 }
 
 .container1 {
+	max-width: 100%;
 	margin: 20px 0;
 	padding-bottom: 30px;
 	display: inline-flex;
@@ -63,27 +65,13 @@ h2 {
 
 #foto {
 	border-radius: 5px;
-	max-width: 450px;
+	max-width: 350px;
 }
 
 .description {
 	margin: 0 10px;
 	margin-top: 40px;
-	max-width: 450px;
-}
-
-.container2 {
-	width: 300px;
-	text-align: center;
-	display: block;
-}
-
-.icon-link {
-	margin-right: 20px;
-}
-
-.icon {
-	width: 70px;
+	max-width: 350px;
 }
 
 #second {
@@ -99,7 +87,7 @@ h2 {
 }
 
 .in_list {
-	font-size: 30px;
+	font-size: 25px;
 	font-weight: 900;
 }
 
@@ -113,4 +101,40 @@ h2 {
 
 .element2 {
 	padding: 10px;
+}
+
+#third {
+	padding: 15px;
+	background-color: rgb(224, 224, 224);
+}
+
+.projects {
+	margin: 20px 0;
+}
+
+#im1 {
+	max-width: 400px;
+}
+
+#im2 {
+	max-width: 600px;
+}
+
+.container2 {
+	display: block;
+	background-color: rgb(87, 88, 88);
+	color: rgb(232, 235, 235);
+}
+
+.container2 h4 {
+	padding: 10px;
+}
+
+.icon-link {
+	margin-right: 20px;
+}
+
+.icon {
+
+	width: 60px;
 }
