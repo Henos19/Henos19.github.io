@@ -4,67 +4,87 @@
   <meta charset="UTF-8">
   <title>Portfólio</title>
   <link rel="stylesheet" href="stylept.css">
+  <script src="https://kit.fontawesome.com/7bf3711fa7.js" crossorigin="anonymous"></script>
 </head>
 <body>
   <header id="header">
-    <h1 id="myName">Henos Vinicius</h1>
+    <h1>Henos Vinicius</h1>
     <nav id="link_tree">
-        <a class="buttom" href="#foto" class="buttom">Minha foto</a>
-        <a class="buttom" href="#sobremim"class="buttom">Sobre mim</a>
-        <a class="buttom" href="#habilidades"class="buttom">Habilidades</a>
-        <a class="buttom" href="#conteudo"class="buttom">Conteúdos que curto</a>
+        <a class="button" href="#about-me">Sobre mim</a>
+        <a class="button" href="#habilities-others">Habilidades e Conteúdos</a>
+        <a class="button" href="#projects">Projetos</a>
+        <a href="#footer" class="button">Redes</a>
     </nav>
   </header>
   <main>
-    <section id="first">
-      <div class="container1">
-        <div class="description">
-          <img id="foto" src="imagens/FotoBacana.JPG">
-          <h4>Aluno de desenvolvimento Web pela Trybe | Interessado em programação e matemática | Fã de games | Melhorar a cada dia</h4>
+    <section id="about-me">
+      <article id="article">
+        <div id="pictures-div">
+          <div class="pic">
+            <img src="imagens/Tests.webp" alt="">
+          </div>
+          <div class="pic">
+            <img src="imagens/Tests.webp" alt="">
+          </div>
+          <div class="pic">
+            <img src="imagens/Tests.webp" alt="">
+          </div>
         </div>
-        <div class="description">
-          <p id="sobremim"><span style="height: 1cm;">Bem vindo ao meu Portfólio!</span><br> Como já sabem, me chamo Henos. Sou natural de Pernambuco mas moro em Brasília e estou começando minha carreira de desenvolvedor Web pela Trybe!<br> Além disso, <em><strong>assuntos relacionados à lógica e exatas.</strong></em></p>
+        <div id="description">
+          <h2>Bem vindo ao meu Portfólio!</h2>
+          <p> Como já sabem, me chamo Henos. Sou natural de Pernambuco mas moro em Brasília desde que era pequeno. Sempre gostei muito de assuntos relacionados à lógica, matemática e ciências, e foram esses fatores que me levaram a buscar a programação como profissão, pois são assuntos bem similares e que fazem parte da vida de um progamador.  </p>
         </div>
+      </article>
+    </section>
+    <section id="habilities-others">
+      <div class="list-div">
+        <h2>Habilidades</h2>
+        <i class="fa-solid fa-brain"></i>
+        <lu class="list">
+          <li>HTML e CSS</li>
+          <li>JavaScript e DOM</li>
+          <li>Lógica e raciocínio analítico</li>
+          <li>Resolução de problemas</li>
+        </lu>
+      </div>
+      <div class="list-div">
+        <h2>Blogs e Canais</h2>
+        <i class="fa-solid fa-video"></i>
+        <lu class="list">
+          <li class="element2 allElements"><a href="https://www.youtube.com/channel/UCcdK7fNDtCuiERTzTZdWY7w" target="_blank" class="buttom">Universo Narrado</a></li>
+          <li class="element2 allElements"><a href="https://www.youtube.com/channel/UC4SVo0Ue36XCfOyb5Lh1viQ" target="_blank" class="buttom">Bro Code</a></li>
+          <li class="element2 allElements"><a href="https://www.youtube.com/user/CienciaTodoDia" target="_blank" class="buttom">Ciência todo dia</a></li>
+        </lu>
       </div>
     </section>
-    <section id="second">
-      <aside id="list-second">
-        <div id="habilidades"class="list">
-          <lu class="in_list">Habilidades das quais me orgulho:
-            <li class="element1 allElements">Unix e Linux</li>
-            <li class="element1 allElements">HTML e CSS</li>
-            <li class="element1 allElements">JavaScript e DOM</li>
-            <li class="element1 allElements">Lógica e raciocínio analítico</li>
-            <li class="element1 allElements"><span style="font-style: italic; font-weight: 900;">Resolução de problemas</span></li>
-          </lu>
+    <section id="projects-section">
+      <h2>Meus projetos</h2>
+      <article id="projects">
+        <div class="projects-div">
+          <h4>Pixel Art</h4>
+          <img src="imagens/PixelArt.png" id="im1">
         </div>
-        <div id="conteudo"class="list">
-          <lu class="in_list">Blogs e canais que gosto:
-            <li class="element2 allElements"><a href="https://www.youtube.com/channel/UCcdK7fNDtCuiERTzTZdWY7w" target="_blank" class="buttom">Universo Narrado</a></li>
-            <li class="element2 allElements"><a href="https://www.youtube.com/channel/UC4SVo0Ue36XCfOyb5Lh1viQ" target="_blank" class="buttom">Bro Code</a></li>
-            <li class="element2 allElements"><a href="https://www.youtube.com/user/CienciaTodoDia" target="_blank" class="buttom">Ciência todo dia</a></li>
-          </lu>
+        <div class="projects-div">
+          <h4>Adivinhe a cor</h4>
+          <img src="" id="im2"/>
         </div>
-      </aside>
+        <div class="projects-div">
+          <h4>Jogo da Velha</h4>
+          <img src="" id="im3"/>
+        </div>
+      </article>
     </section>
-    <section id="third">
-      <h2>Meus projetos:</h2>
-      <div class="projects">
-        <h4>Pixel Art - </h4>
-        <img src="imagens/pixelArt.png" id="im1"/>
-      </div>
-      <div class="projects">
-        <h4>Adivinhe a cor - </h4>
-        <img src="imagens/adivinheACor.png" id="im2"/>
-      </div>
-    </section>
-    <footer id="fotter">
-      <div class="container2">
-        <h4>Redes:</h4>
-        <a href="https://github.com/Henos19" target="_blank" class="icon-link"><img src="imagens/guthubicon.png" class="icon"/></a>
-        <a href="https://www.linkedin.com/in/henos-vinicius-38086a234/" target="_blank" class="icon-link"><img src="imagens/linkedinicon.png" class="icon"/></a>
-      </div>
-    </footer>
   </main>
+  <footer id="footer">
+    <a href="https://www.linkedin.com/in/henos-vinicius-38086a234/" target="_blank">
+      <i class="fa-brands fa-linkedin"></i>
+    </a>
+    <a href="https://github.com/Henos19" target="_blank">
+     <i class="fa-brands fa-github"></i>
+    </a>
+    <a href="https://www.hackerrank.com/henosvinicius13" target="_blank">
+      <i class="fa-brands fa-hackerrank"></i>
+    </a>
+  </footer>
 </body>
 </html>
